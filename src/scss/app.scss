@@ -27,3 +27,13 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.discount {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .discount {
+    display: block;
+  }
+}
